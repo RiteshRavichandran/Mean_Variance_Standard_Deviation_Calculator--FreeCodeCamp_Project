@@ -38,6 +38,9 @@ The unit tests for this project are in `test_module.py`
 ## Testing
 >We imported the tests from `test_module.py` to `main.py` for your convenience. The tests will run automatically whenever you hit the "run" button.
 
+## Run
+>Live Execution at [Replit](https://replit.com/@RiteshRavichand/boilerplate-mean-variance-standard-deviation-calculator#main.py "Live Demo")
+
 Visit [FreeCodeCamp](https://www.freecodecamp.org/ "FreeCodeCamp") 
 
 ![FreeCodeCamp Logo](https://d33wubrfki0l68.cloudfront.net/774b60156d8f103170dc66f3ad10310941114653/da262/img/fcc_secondary_large.svg)
