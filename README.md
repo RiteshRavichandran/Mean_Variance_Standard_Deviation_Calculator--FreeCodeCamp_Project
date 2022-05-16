@@ -1,8 +1,7 @@
 # Mean Variance Standard Deviation Calculator --FreeCodeCamp Project
----
 
 ## Aim
-> Create a function named calculate() in mean_var_std.py that uses Numpy to output the mean, variance, standard deviation, max, min, and sum of the rows, columns, and elements in a 3 x 3 matrix.
+> Create a function named `calculate()` in `mean_var_std.py` that uses Numpy to output the mean, variance, standard deviation, max, min, and sum of the rows, columns, and elements in a 3 x 3 matrix.
 
 The input of the function should be a list containing 9 digits. The function should convert the list into a 3 x 3 Numpy array, and then return a dictionary containing the mean, variance, standard deviation, max, min, and sum along both axes and for the flattened matrix.
 
@@ -18,9 +17,9 @@ The returned dictionary should follow this format:
 }
 ```
 
-If a list containing less than 9 elements is passed into the function, it should raise a ValueError exception with the message: "List must contain nine numbers." The values in the returned dictionary should be lists and not Numpy arrays.
+If a list containing less than 9 elements is passed into the function, it should raise a `ValueError` exception with the message: "List must contain nine numbers." The values in the returned dictionary should be lists and not Numpy arrays.
 
-For example, calculate([0,1,2,3,4,5,6,7,8]) should return:
+For example, `calculate([0,1,2,3,4,5,6,7,8])` should return:
 ```
 {
     'mean': [[3.0, 4.0, 5.0], [1.0, 4.0, 7.0], 4.0],
@@ -31,12 +30,14 @@ For example, calculate([0,1,2,3,4,5,6,7,8]) should return:
     'sum': [[9, 12, 15], [3, 12, 21], 36]
 }
 ```
-The unit tests for this project are in test_module.py
+The unit tests for this project are in `test_module.py`
 
 ## Development
->For development, you can use main.py to test your calculate() function. Click the "run" button and main.py will run.
+>For development, you can use `main.py` to test your `calculate()` function. Click the "run" button and `main.py` will run.
 
 ## Testing
->We imported the tests from test_module.py to main.py for your convenience. The tests will run automatically whenever you hit the "run" button.
+>We imported the tests from `test_module.py` to `main.py` for your convenience. The tests will run automatically whenever you hit the "run" button.
 
 Visit [FreeCodeCamp](https://www.freecodecamp.org/ "FreeCodeCamp") 
+
+![FreeCodeCamp Logo](https://d33wubrfki0l68.cloudfront.net/774b60156d8f103170dc66f3ad10310941114653/da262/img/fcc_secondary_large.svg)
